@@ -1,0 +1,143 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+/* --------------------HEADER-------------------------- */
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.header-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+.emphasis {
+    position: relative;
+}
+.emphasis::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    pointer-events: none;
+    border-radius: 2px;
+    background-color: #404BBF;
+}
+.header-contacts {
+    display: block;
+    margin-left: auto;
+}
+.contacts-link {
+    list-style: none;
+    text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-link:not(:last-child) {
+    margin-right: 40px;
+}
+.contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+.contacts:hover,
+.contacts:focus {
+    color: #404BBF;
+}
+.mob-menu-open {
+    display: none;
+}
+.mob-menu {
+    display: none;
+}
+/* --------------------HERO---------------------------- */
+.hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-img-tab.jpg);
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-img-tab2x.jpg);
+    }
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+}
+/* --------------------STRATEGY------------------------ */
+/* --------------------WORKS--------------------------- */
+/* --------------------TEAM---------------------------- */
+    .team-container {
+  
+        max-width: 582px;
+        padding-bottom: 104px;
+    }
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team-item:not(:last-child) {
+        margin-bottom: 64px;
+    }
+/* --------------------CUSTOMERS----------------------- */
+/* --------------------GALERY-------------------------- */
+/* --------------------FOOTER-------------------------- */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* --------------------MODAL WONDOW-------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

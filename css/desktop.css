@@ -1,0 +1,93 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+/* --------------------HEADER-------------------------- */
+    .header-contacts {
+       display: flex;
+    }
+/* --------------------HERO---------------------------- */
+.hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-img-desk.jpg);
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-img-desk2x.jpg);
+  }
+}
+/* --------------------STRATEGY------------------------ */
+    .strategy-container {
+        display: flex;
+    }
+    .strategy-list {
+        display: flex;
+    }
+    .strategy-icon {
+        display: flex;
+    }
+/* --------------------WORKS--------------------------- */
+    .works {
+        display: flex;
+        padding-top: 0;
+        padding-bottom: 120px;
+    }
+    .works-title {
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--main-title-color);
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    .works-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+    .works-item {
+    }
+/* --------------------TEAM---------------------------- */
+    .team-container {
+      max-width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .team-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+/* --------------------CUSTOMERS----------------------- */
+/* --------------------GALERY-------------------------- */
+/* --------------------FOOTER-------------------------- */
+.footer-container {
+    flex-wrap: nowrap;
+}
+/* --------------------MODAL WONDOW-------------------- */
+
+
+
+
+
+
+
+
+
+
+}
