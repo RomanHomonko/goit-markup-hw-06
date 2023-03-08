@@ -103,6 +103,15 @@
     width: 496px;
 }
 /* --------------------STRATEGY------------------------ */
+.strategy {
+}
+.strategy-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.strategy-text {
+    max-width: 356px;
+}
 /* --------------------WORKS--------------------------- */
 /* --------------------TEAM---------------------------- */
     .team-container {
@@ -114,13 +123,14 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .team-item:not(:last-child) {
-        margin-bottom: 64px;
+    .team-item {
+        gap: 64px;
     }
 /* --------------------CUSTOMERS----------------------- */
 /* --------------------GALERY-------------------------- */
 /* --------------------FOOTER-------------------------- */
 .footer-container {
+    width: 565px;
     display: flex;
     flex-wrap: wrap;
 }

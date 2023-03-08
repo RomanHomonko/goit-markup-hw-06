@@ -211,7 +211,6 @@ img {
 }
 .strategy-list {
     justify-content: center;
-    text-align: center;
     gap: 24px;
 }
 .strategy-icon {
@@ -223,9 +222,9 @@ img {
     background-color: var(--galery-button-color);
 }
 .strategy-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
 }
@@ -242,14 +241,13 @@ img {
 }
 /* --------------------TEAM-------------------- */
 .team {
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
+    padding-top: 96px;
+    padding-bottom: 128px;
     background: #F4F4FD;
 }
 .team-container {
     max-width: 294px;
-    padding-top: 96px;
-    padding-bottom: 128px;
+
 }
 .team-title {
     font-size: 36px;
@@ -320,6 +318,7 @@ img {
 }
 /* --------------------CUSTOMERS-------------------- */
 .customers {
+    display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -335,6 +334,7 @@ img {
 }
 .customers-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
 }
