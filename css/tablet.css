@@ -3,6 +3,9 @@
         max-width: 768px;
     }
 /* --------------------HEADER-------------------------- */
+.header-container {
+    width: 768px;
+}
 .header-list {
     display: flex;
     gap: 40px;
