@@ -112,33 +112,40 @@
     display: flex;
     flex-wrap: wrap;
 }
+.strategy-title {
+    justify-content: start;
+}
 .strategy-text {
     max-width: 356px;
 }
 /* --------------------WORKS--------------------------- */
 /* --------------------TEAM---------------------------- */
     .team-container {
-  
         max-width: 582px;
-        padding-bottom: 104px;
     }
     .team-list {
         display: flex;
         flex-wrap: wrap;
+        gap: 64px 24px;
     }
     .team-item {
-        gap: 64px;
     }
 /* --------------------CUSTOMERS----------------------- */
 /* --------------------GALERY-------------------------- */
 /* --------------------FOOTER-------------------------- */
 .footer-container {
-    width: 565px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.input-subscribe {
+    width: 264px;
 }
 /* --------------------MODAL WONDOW-------------------- */
-
+.modal {
+    width: 408px;
+}
 
 
 

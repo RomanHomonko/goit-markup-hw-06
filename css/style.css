@@ -92,7 +92,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E7E9FC;
+    background-color: #FFFFFF;
     margin-left: auto;
     margin-right: 17px;
 }
@@ -234,10 +234,13 @@ img {
 .strategy {
 }
 .strategy-container {
+    position: relative;
 }
 .strategy-list {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 72px 24px;
 }
 .strategy-icon {
     display: none;
@@ -248,6 +251,9 @@ img {
     background-color: var(--galery-button-color);
 }
 .strategy-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -273,7 +279,6 @@ img {
 }
 .team-container {
     max-width: 294px;
-
 }
 .team-title {
     font-size: 36px;
@@ -285,8 +290,9 @@ img {
     margin-bottom: 72px;
 }
 .team-list {
-    display: block;
-    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
 }
 .team-item {
     border-radius: 0px 0px 4px 4px;
@@ -438,7 +444,7 @@ img {
     width: 360px;
 }
 .galery-item:hover .galery-cover-text{
-transform: translateY(0);
+    transform: translateY(0);
 }
 .galery-cover-wrap {
     position: relative;
@@ -488,22 +494,20 @@ transform: translateY(0);
 }
 /* --------------------FOOTER-------------------- */
 .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #2E2F42;
-    gap: 120px;
 }
 .footer-container {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 62px;
 }
 .footer-container-logo {
     display: block;
-    width: 584px;
-    margin-right: 100px;
     padding-left: 0;
 }
 .footer-soc {
-    margin-right: 80px;
     display: block;
     justify-content: start;
 }
@@ -527,8 +531,6 @@ transform: translateY(0);
     letter-spacing: 0.02em;
     color: #E7E9FC;
     width: 264px;
-}
-.footer-subscribe {
 }
 .footer-aftertitle {
     font-weight: 500;
@@ -583,7 +585,7 @@ transform: translateY(0);
     border-radius: 4px;
     background: #2E2F42;
     margin-right: 24px;
-    width: 264px;
+    width: 398px;
     height: 40px;
     padding-left: 16px;
     color: rgba(255, 255, 255, 0.6);
@@ -612,6 +614,20 @@ transform: translateY(0);
 .button-subscribe:hover,
 .button-subscribe:focus {
     background: #404BBF;
+}
+.footer-subscribe {
+    display: flex;
+    flex-wrap: wrap;
+}
+.subscribe-aftertitle {
+}
+.footer-form {
+}
+.input-subscribe {
+}
+.button-subscribe {
+}
+.button {
 }
 /* --------------------MODAL WONDOW-------------------- */
 .backdrop {
@@ -644,6 +660,12 @@ transform: translateY(0);
     padding-right: 24px;
     padding-left: 24px;
     padding-bottom: 24px;
+}
+.modal {
+    height: 600px; 
+    max-height: 90vh; 
+    overflow-y: scroll;
+    width: calc(100% - 2 * 15px);
 }
 .modal-button {
     position: absolute;

@@ -42,6 +42,7 @@
     }
     .strategy-list {
         display: flex;
+        flex-wrap: nowrap;
     }
     .strategy-icon {
         display: flex;
@@ -91,6 +92,13 @@
 .footer-container {
     width: 100%;
     flex-wrap: nowrap;
+}
+.footer-container-logo {
+    display: block;
+    width: 584px;
+    padding-left: 0;
+}
+.footer-soc {
 }
 /* --------------------MODAL WONDOW-------------------- */
 
