@@ -139,8 +139,28 @@
     justify-content: center;
     align-items: center;
 }
+.footer-logo {
+    text-align: start;
+}
+.footer-aftertitle {
+    text-align: start;
+}
+.footer-subscribe {
+    display: block;
+    margin-right: auto;
+    margin-left: 100px;
+}
+.subscribe-aftertitle {
+    text-align: start;
+}
 .input-subscribe {
     width: 264px;
+}
+.footer-form{
+    display: flex;
+}
+.button-subscribe {
+    margin-top: 0;
 }
 /* --------------------MODAL WONDOW-------------------- */
 .modal {

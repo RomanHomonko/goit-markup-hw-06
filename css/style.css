@@ -499,9 +499,11 @@ img {
     background-color: #2E2F42;
 }
 .footer-container {
+    min-width: 320px;
     display: flex;
     flex-wrap: wrap;
     gap: 62px;
+    justify-content: center;
 }
 .footer-container-logo {
     display: block;
@@ -521,6 +523,7 @@ img {
     color: #2E2F42;
     text-decoration: none;
     margin-bottom: 16px;
+    text-align: center;
 }
 .footer-studio {
     color: #F4F4FD;
@@ -539,6 +542,7 @@ img {
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     color: #FFFFFF;
+    text-align: center;
 }
 .footer-soc-list {
     display: flex;
@@ -567,16 +571,20 @@ img {
 .footer-soc-icon {
     fill: #F4F4FD;
 }
+.footer-subscribe {
+    display: block;
+    /* gap: 16px; */
+    text-align: -webkit-center;
+}
 .subscribe-aftertitle {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
     color: #FFFFFF;
+    text-align: center;
 }
 .footer-form{
-    display: flex;
 }
 .label-subscribe {
 }
@@ -585,7 +593,7 @@ img {
     border-radius: 4px;
     background: #2E2F42;
     margin-right: 24px;
-    width: 398px;
+    width: 320px;
     height: 40px;
     padding-left: 16px;
     color: rgba(255, 255, 255, 0.6);
@@ -600,6 +608,7 @@ img {
     padding: 8px 24px;
     gap: 16px;
     border: none;
+    margin-top: 16px;
 }
 .button-subscribe::after {
     display: block;
@@ -614,20 +623,6 @@ img {
 .button-subscribe:hover,
 .button-subscribe:focus {
     background: #404BBF;
-}
-.footer-subscribe {
-    display: flex;
-    flex-wrap: wrap;
-}
-.subscribe-aftertitle {
-}
-.footer-form {
-}
-.input-subscribe {
-}
-.button-subscribe {
-}
-.button {
 }
 /* --------------------MODAL WONDOW-------------------- */
 .backdrop {
@@ -818,3 +813,5 @@ border: none;
 .modal-submit-button:focus {
     background: #404BBF;
 }
+
+

@@ -98,6 +98,12 @@
     width: 584px;
     padding-left: 0;
 }
+.footer-subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-left: 0;
+}
 .footer-soc {
 }
 /* --------------------MODAL WONDOW-------------------- */
