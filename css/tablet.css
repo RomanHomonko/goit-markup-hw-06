@@ -147,14 +147,14 @@
 }
 .footer-subscribe {
     display: block;
-    margin-right: auto;
-    margin-left: 100px;
+    width: 565px;
 }
 .subscribe-aftertitle {
     text-align: start;
 }
 .input-subscribe {
     width: 264px;
+    margin-right: 24px;
 }
 .footer-form{
     display: flex;

@@ -44,7 +44,6 @@ img {
 }
 .container {
     width: 100%;
-    /* width: 1158px; */
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -54,11 +53,11 @@ img {
     padding-bottom: 120px;
 }
 /* --------------------HEADER-------------------- */
-  .header {
+.header {
     border-bottom: 1px solid #E7E9FC;
 }
 .header-container {
-    width: 428px;
+    min-width: 320px;
     display: flex;
     align-items: center;
 }
@@ -100,13 +99,21 @@ img {
     stroke: #2E2F42;
 }
 .mob-menu {
-    width: 428px;
     position: fixed;
-    top: 0%;
+    width: 100%;
     height: 100%;
-    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 1;
     padding: 24px;
     border: 1px solid #000000;
+    background: #FFFFFF;
+}
+.mob-menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .mob-menu.is-hidden {
     position: absolute;
@@ -116,10 +123,19 @@ img {
     overflow: hidden;
 }
 .mob-menu-close {
-    display: block;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     margin-left: auto;
     margin-bottom: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+}
+.svg-close {
+    stroke: #000000;
 }
 .mob-menu-list {
     padding-bottom: 284px;
@@ -199,6 +215,10 @@ img {
 }
 .hero-container {
     text-align: center;
+}
+.hero > .container {
+    padding-left: 0;
+    padding-right: 0;
 }
 .hero-title {
     font-weight: 700;
@@ -573,7 +593,6 @@ img {
 }
 .footer-subscribe {
     display: block;
-    /* gap: 16px; */
     text-align: -webkit-center;
 }
 .subscribe-aftertitle {
@@ -583,6 +602,7 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
+    margin-bottom: 24px;
 }
 .footer-form{
 }
@@ -592,7 +612,6 @@ img {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background: #2E2F42;
-    margin-right: 24px;
     width: 320px;
     height: 40px;
     padding-left: 16px;
@@ -644,7 +663,6 @@ img {
 .modal {
     position: absolute;
     width: 408px;
-    min-height: 576px;
     top: 50%;
     left: 50%;
     background: #FCFCFC;
